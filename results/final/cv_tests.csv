@@ -1,0 +1,19 @@
+comparison,metric,mean_difference,t,p
+Random Forest vs SVM (RBF),accuracy,-0.0035,-0.4431,0.6616
+Random Forest vs SVM (RBF),recall,0.0016,0.1829,0.8564
+Random Forest vs SVM (RBF),f1,-0.0027,-0.4305,0.6707
+Random Forest vs Gradient Boosting,accuracy,0.003,0.5722,0.5725
+Random Forest vs Gradient Boosting,recall,0.0048,1.0224,0.3168
+Random Forest vs Gradient Boosting,f1,0.0024,0.5812,0.5665
+Random Forest vs Decision Tree,accuracy,0.018,2.1785,0.0394
+Random Forest vs Decision Tree,recall,0.0152,1.3951,0.1758
+Random Forest vs Decision Tree,f1,0.0144,2.1642,0.0406
+Random Forest vs MLP,accuracy,0.0005,0.0634,0.95
+Random Forest vs MLP,recall,0.008,0.8577,0.3995
+Random Forest vs MLP,f1,0.0005,0.0813,0.9359
+Random Forest vs GRU,accuracy,0.024,2.8394,0.0091
+Random Forest vs GRU,recall,0.0416,2.6281,0.0147
+Random Forest vs GRU,f1,0.0199,2.788,0.0102
+Random Forest vs LSTM,accuracy,0.0355,2.8643,0.0085
+Random Forest vs LSTM,recall,0.0536,2.8845,0.0082
+Random Forest vs LSTM,f1,0.0294,2.821,0.0095

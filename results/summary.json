@@ -1,0 +1,19 @@
+{
+  "raw_shape": [
+    400,
+    25
+  ],
+  "duplicates_removed": 0,
+  "complete_cases": 158,
+  "class_counts": {
+    "1": 250,
+    "0": 150
+  },
+  "train_test": [
+    320,
+    80
+  ],
+  "selected_imputation": "simple",
+  "test_ckd": 50,
+  "test_nonckd": 30
+}

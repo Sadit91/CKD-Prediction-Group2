@@ -1,0 +1,18 @@
+{
+  "mean_row_missing_ckd_pct": 15.08,
+  "mean_row_missing_nonckd_pct": 2.89,
+  "complete_rows_ckd": 43,
+  "complete_rows_nonckd": 115,
+  "rf_missingness_mask_only_cv_acc": 0.82,
+  "rf_missingness_mask_only_cv_sd": 0.0376,
+  "depth1_stump_cv_acc": {
+    "hemo": 0.9224,
+    "sg": 0.8808,
+    "al": 0.8474,
+    "pcv": 0.8935,
+    "rc": 0.8809,
+    "sc": 0.8826
+  },
+  "complete_case_n": 158,
+  "complete_case_rf_cv_acc": 1.0
+}

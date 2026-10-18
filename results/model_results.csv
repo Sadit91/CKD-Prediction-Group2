@@ -1,0 +1,7 @@
+Model,Type,CV F1 (mean),CV F1 (SD),Accuracy,Precision,Recall,F1,ROC-AUC,Best params
+Random Forest,Classical,0.9951,0.006,1.0,1.0,1.0,1.0,1.0,"{""max_depth"": null, ""min_samples_leaf"": 1, ""n_estimators"": 100}"
+SVM (RBF),Classical,0.9975,0.0051,1.0,1.0,1.0,1.0,1.0,"{""C"": 0.5, ""gamma"": 0.05}"
+Decision Tree,Classical,0.978,0.0223,0.975,0.98,0.98,0.98,0.9893,"{""criterion"": ""gini"", ""max_depth"": 3, ""min_samples_leaf"": 1}"
+Gradient Boosting,Classical,0.9926,0.0148,1.0,1.0,1.0,1.0,1.0,"{""learning_rate"": 0.1, ""max_depth"": 2, ""n_estimators"": 300}"
+LSTM,Deep Learning,,,0.95,0.9792,0.94,0.9592,0.984,"2 layers (64,32), dropout 0.3, Adam 1e-3, epochs run=45"
+GRU,Deep Learning,,,0.9625,0.9796,0.96,0.9697,0.984,"2 layers (64,32), dropout 0.3, Adam 1e-3, epochs run=112"

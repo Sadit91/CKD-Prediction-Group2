@@ -1,0 +1,17 @@
+condition,model,accuracy,accuracy_sd,recall,specificity,f1,auc
+Complete records only (n=158),Decision Tree,0.9873,0.0159,0.9522,1.0,0.9746,0.9761
+Complete records only (n=158),Gradient Boosting,0.9911,0.0145,0.9672,1.0,0.9826,0.9883
+Complete records only (n=158),Random Forest,0.9975,0.0088,0.9906,1.0,0.995,1.0
+Complete records only (n=158),SVM (RBF),1.0,0.0,1.0,1.0,1.0,1.0
+Imputed clinical values,Decision Tree,0.9765,0.0163,0.9888,0.956,0.9814,0.9784
+Imputed clinical values,Gradient Boosting,0.9895,0.0106,0.9896,0.9893,0.9916,0.9997
+Imputed clinical values,Random Forest,0.992,0.0087,0.996,0.9853,0.9936,0.9998
+Imputed clinical values,SVM (RBF),0.998,0.0047,0.9968,1.0,0.9984,1.0
+Imputed values + missingness indicators,Decision Tree,0.977,0.0168,0.9904,0.9547,0.9818,0.9781
+Imputed values + missingness indicators,Gradient Boosting,0.995,0.013,0.9952,0.9947,0.996,0.9998
+Imputed values + missingness indicators,Random Forest,0.9945,0.0081,0.9992,0.9867,0.9956,1.0
+Imputed values + missingness indicators,SVM (RBF),0.969,0.0181,0.988,0.9373,0.9756,0.9968
+Missingness indicators only,Decision Tree,0.8115,0.0368,0.764,0.8907,0.8345,0.8572
+Missingness indicators only,Gradient Boosting,0.8305,0.04,0.8128,0.86,0.8564,0.8813
+Missingness indicators only,Random Forest,0.823,0.033,0.7912,0.876,0.8476,0.8819
+Missingness indicators only,SVM (RBF),0.813,0.0384,0.7936,0.8453,0.8407,0.859

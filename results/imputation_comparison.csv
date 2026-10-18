@@ -1,0 +1,5 @@
+Imputation,Model,CV F1 mean,CV F1 SD
+Median/Mode,Random Forest,0.9951,0.006
+Median/Mode,SVM (RBF),0.9975,0.0051
+KNN (k=5),Random Forest,0.995,0.0061
+KNN (k=5),SVM (RBF),0.9873,0.0081

@@ -1,0 +1,29 @@
+{
+  "spearman_rank_full_vs_complete_case": 0.799,
+  "spearman_p": 2.8017262489246734e-06,
+  "top5_full": [
+    "sc",
+    "hemo",
+    "pcv",
+    "rc",
+    "sg"
+  ],
+  "top5_complete_case": [
+    "sc",
+    "al",
+    "pcv",
+    "rc",
+    "hemo"
+  ],
+  "indicator_share_of_total_attribution": 0.147,
+  "top_indicators": {
+    "rbc_missing": 0.0592,
+    "rc_missing": 0.0336,
+    "sod_missing": 0.0223,
+    "wc_missing": 0.0082,
+    "pot_missing": 0.0079
+  },
+  "indicator_ranks_in_top10": [
+    "rbc_missing"
+  ]
+}
